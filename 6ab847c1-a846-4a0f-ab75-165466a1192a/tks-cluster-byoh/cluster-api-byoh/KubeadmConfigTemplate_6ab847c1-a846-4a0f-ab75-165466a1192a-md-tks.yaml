@@ -1,0 +1,9 @@
+# Source: cluster-api-byoh/templates/machinedeployment.yaml
+apiVersion: bootstrap.cluster.x-k8s.io/v1beta1
+kind: KubeadmConfigTemplate
+metadata:
+  name: 6ab847c1-a846-4a0f-ab75-165466a1192a-md-tks
+  namespace: 6ab847c1-a846-4a0f-ab75-165466a1192a
+spec:
+  template:
+    spec: {}
